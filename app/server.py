@@ -56,8 +56,9 @@ async def homepage(request):
 
 
 @app.route('/ping', methods=['GET'])
-async def ping():
+def ping(request):
     return JSONResponse({"result": "ping"}
+
 
 
 @app.route('/analyze', methods=['POST'])
