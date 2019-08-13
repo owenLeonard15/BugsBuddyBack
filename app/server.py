@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=1clFNa_wGF9Trnn8b_SYrPTs_tvsiB6n'
-export_file_name = 'stage-2.pth'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1xtLu1UhUN-maOucnyO863NT8Ik3cF-o7'
+export_file_name = 'trained_basicbugs34.pkl'
 
 classes = ['bedbug', 'notbedbug']
 path = Path(__file__).parent
