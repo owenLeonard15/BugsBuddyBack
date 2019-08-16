@@ -1,15 +1,5 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+#bugs buddy back
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+This is the back end portion of a mobile app which utilizes a machine learning model to identify bed bugs. The model is maintained separately so that it can be updated without the app itself being redeployed.
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
-
-You can test your changes locally by installing Docker and using the following command:
-
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
-
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+The front end portion of the app is also maintained separately in the following repo: https://github.com/owenLeonard15/bedbugid  
