@@ -37,7 +37,7 @@ async def setup_learner():
     except RuntimeError as e:
         if len(e.args) > 0 and 'CPU-only machine' in e.args[0]:
             print(e)
-            message = "\n\nThis model was trained with an old version of fastai and will not work in a CPU environment.\n\nPlease update the fastai library in your training environment and export your model again.\n\nSee instructions for 'Returning to work' at https://course.fast.ai."
+            message = "\n\nThis model was trained with an old version of fastai and will not work in a CPU environment."
             raise RuntimeError(message)
         else:
             raise
